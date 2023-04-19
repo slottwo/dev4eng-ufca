@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dev4eng-ufca"
+version = "0.1.0"
+description = "Repository for support of Development class for Engineering"
+authors = ["slottwo"]
+readme = "README.md"
+packages = [{include = "dev4eng_ufca"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
